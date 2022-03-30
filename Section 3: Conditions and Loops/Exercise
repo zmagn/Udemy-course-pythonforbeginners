@@ -1,0 +1,32 @@
+Exercises:
+
+•Exercise 1: Create a loop that prints out either even numbers, or odd 
+numbers all the way up till your age. Ex: 2,4,6,….,14 
+
+•Exercise 2: Using if statements, create a variable called day, set it to 
+“Tuesday”. Check to see if day is equal to “Monday” or “Tuesday”, and if it 
+is, print, “Today is sunny”. If it is not, print “Today it will rain”
+
+•Exercise 3: The weight of a person on the moon is 1/6th the weight of a 
+person standing on earth. Say that your weight on earth increases by 1 kg 
+every year. Write a program that will print your weight on the moon every 
+year for the next 10 years. (Your initial weight can be anything.)
+
+Answers:
+___________________________________________________________________________________________________________________________________________
+Exercise 1:
+for x in range (0,29,1):
+  if x % 2 == 0:
+    print(f'Even number',x)
+  if x % 2 == 1:
+    print(f'Odd number',x)
+    
+___________________________________________________________________________________________________________________________________________
+Exercise 2:
+Today = 'Tuesday'
+if Today == 'Tuesday' or Today == 'Monday':
+  print(f'Today is sunny')
+else:
+  print(f'Today it will rain')
+___________________________________________________________________________________________________________________________________________
+Exercise 3:
