@@ -15,12 +15,27 @@ variables. And then print out a message saying (“Hello there, FirstName
 LastName”) (Using the %s symbols)
 
 Answers:
-
+___________________________________________________________________________________________________________________________________________
 Exercise 1:
 >>> listMovies = ['Borat1', 'Borat2', 'Spiderman']
 >>> listSongs = ['The Weekend', 'Gaga', 'Aviv Geffen']
 >>> favorite_book = listSongs + listMovies
 >>> print(favorite_book)
 ['The Weekend', 'Gaga', 'Aviv Geffen', 'Borat1', 'Borat2', 'Spiderman']
-
+___________________________________________________________________________________________________________________________________________
 Exercise 2:
+>>> 20 - 10 + 3 + 15 - 5 + (3*15)
+68
+___________________________________________________________________________________________________________________________________________
+Exercise 3:
+>>> First_Name = input('Enter your first name ')
+Enter your first name John
+>>> First_Name
+'John'
+>>> Last_Name = input('Enter your last name ')
+Enter your last name Doe
+>>> Last_Name
+'Doe'
+>>> print(f'Hello there', First_Name, Last_Name)
+Hello there John Doe
+>>> 
