@@ -30,3 +30,8 @@ else:
   print(f'Today it will rain')
 ___________________________________________________________________________________________________________________________________________
 Exercise 3:
+Personweight = 100
+Moonweight = 1/6
+
+for x in range(Personweight,Personweight + 10,1):
+  print(f'The weight on the moon will be:' ,x * Moonweight)
